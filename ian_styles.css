@@ -1,0 +1,42 @@
+/* css */
+*{
+  text-align: center;
+}
+
+.billboard{
+  background-image: url(../img/cat.jpeg);
+  background-size: auto 100%;
+  background-position: cover;
+}
+
+.more{
+  background-color: rgba(0,0,0,.4);
+  margin-bottom: 1.5em;
+}
+
+.more.text{
+  color: white;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  padding-top: 1em;
+}
+
+.more.text b{
+  font-size: 30px;
+}
+
+.more.button{
+  color: white;
+  padding-top: 1em;
+  padding-top: .3em;
+  margin-top: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+
+.text.projects{
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+}

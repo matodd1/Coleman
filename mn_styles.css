@@ -1,0 +1,233 @@
+
+/* css */
+
+
+*, .billboard_event_text { font-family:'OpenSans-Regular', sans-serif;}
+
+/* FONTS
+{ font-family:OpenSans-Regular;}
+{font-family: 'Raleway', sans-serif;}**********************************/
+
+.nav-link, h5, h2, h1, h4 .article {font-family: 'Raleway', sans-serif;}
+
+.carousel-arrows, .date, .btn{
+font-family: 'OpenSans-Bold', sans-serif; }
+
+.time-place, .more_projects_text {
+  font-family: 'OpenSans-SemiBold', sans-serif;
+}
+.ccspan, .info, .social, .email {
+    font-family: 'OpenSans-Light', sans-serif;
+}
+
+
+/*NAV********************************************************************/
+.section_navbar{
+  position: absolute;
+}
+
+
+/*BILLBOARD***********************************************************/
+
+.section_billboard{
+  background-image: url("https://colemanarts.org/wp/wp-content/uploads/2019/10/za_image2-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+
+}
+.event_box {
+    position: absolute;
+    bottom: 25%;
+    right: 0%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.opacity {
+    background-color: #252525;
+    opacity: 0.8;
+}
+.billboard_event{
+  padding: 2rem;
+}
+.billboard_event, h1{
+  font-size: 30pt;
+}
+.billboard_event_arrows{
+  color: #b3190b;
+}
+
+@media only screen and (min-width: 992px) {
+.billboard_event{
+  display: none;
+}
+}
+
+@media only screen and (max-width: 992px) {
+#Billboard .event_box {
+  display: none;
+}
+}
+
+/* EVENT ****************************************************************/
+#Events{
+  padding: 2rem;
+}
+.billboard_event_title{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.more_projects_arrow{
+  color: #b3190b;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+.more_projects_arrow{
+  display: none;
+}
+}
+
+
+/* CALANDER*****************************************************/
+.carousel{
+  padding: 4rem;
+}
+
+.carousel-control-prev-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23353535' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23353535' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+@media only screen and (min-width: 992px){
+  .carousel-control-prev-icon{
+    position: relative;
+    right: 50px;
+  }
+  .carousel-control-next-icon{
+    position: relative;
+    left: 50px;
+  }
+}
+
+  #carouselExampleControls {
+    background-color: #e2e2e2;
+  }
+
+ .carousel-arrows{
+  color: #b3190b;
+  }
+
+.carousel-icon:hover {
+  box-shadow: 0 0 0 4px #fff;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.date {
+  font-size: 38pt;
+  line-height: 1.5rem;
+  position: relative;
+  top: 20px;
+}
+
+  .event_name{
+  font-size: 12pt;
+  position: relative;
+  left: 20px;
+}
+
+.time-place{
+  font-size: 15pt;
+  position: relative;
+  left: 20px;
+}
+
+#carouselExampleControls, br{
+  line-height: 125%;
+}
+
+/* FOOTER *********************************************************/
+.footer {
+  padding: 3rem;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #353535;
+  color: #ffffff;
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.email{
+  border:none;
+  background-color: transparent;
+  width: 300px;
+  color: white;
+}
+
+.email:focus {
+    outline: none !important;
+    box-shadow: 0 0 10px;
+}
+
+.social-link{
+color: #DDDDDD;
+
+}
+
+.btn{
+  position: relative;
+  top: 10px;
+}
+
+
+@media only screen and (max-width: 992px) {
+.cc-info{
+  text-align: center;
+}
+  .ccspan {
+      display: inline-block;
+    }
+  .info {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+  .emailspan {
+      display: flex;
+      justify-content: center;
+    }
+    .email{
+      text-align: center;
+    }
+    .button {
+      display: block;
+      margin: 0 auto;
+    }
+    .follow{
+    display: none;
+    }
+    .social-links {
+        text-align: center;
+        font-size: 22px;
+    }
+
+
+
+}
